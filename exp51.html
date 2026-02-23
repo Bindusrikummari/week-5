@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box Model Example</title>
+    <style>
+        body {
+            background-color: #e6e6e6;
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            width: 400px;
+            background-color: #9fc3cf;
+            padding: 20px;
+            border: 6px solid blue;
+            margin: 50px auto;
+        }
+
+        .box h2 {
+            margin-top: 0;
+        }
+
+        .box ul {
+            margin-top: 10px;
+        }
+
+        .info {
+            width: 400px;
+            background-color: #ffffff;
+            padding: 15px;
+            border: 2px dashed gray;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>Box Model Demonstration</h2>
+        <p>This is the content area.</p>
+        <p>Padding gives inner space.</p>
+        <p>Border surrounds the box.</p>
+        <p>Margin creates outer space.</p>
+
+        <h3>Key Points:</h3>
+        <ul>
+            <li>Content is the actual text or images.</li>
+            <li>Padding is inside the border.</li>
+            <li>Border wraps around padding.</li>
+            <li>Margin separates elements from each other.</li>
+        </ul>
+    </div>
+
+    <div class="info">
+        <h3>Additional Information</h3>
+        <p>The CSS box model is fundamental for layout design in web development. 
+        Understanding how margin, border, padding, and content interact helps in 
+        creating proper spacing and alignment.</p>
+    </div>
+
+</body>
+</html>
